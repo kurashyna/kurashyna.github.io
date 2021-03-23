@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-
-body{
-    background-image: url(img/background.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: Lato;
-    padding: 0px;
-    margin: 0px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
 nav{
-    
+    display: inline-block;
+    width: 100%;
+    position: fixed;
+    top: 0px;
     background-color: purple;
     color: white;
 }
@@ -22,4 +16,42 @@ nav ul {
 nav ul li{
     padding: 10px;
     list-style: none;
+}
+
+/* Body */
+body{
+    background-image: url(img/background-large.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Lato;
+    padding: 0px;
+    margin: 0px;
+}
+
+header h1, header h2{
+    text-align: center;
+    text-shadow: 3px 5px 1px black;
+    color: white;
+    font-size: 3em;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+header h1 {
+    margin-bottom: 0px;
+    font-size: 5em;
+}
+
+header h2{
+    margin-bottom: 100px;
+}
+
+section{
+    font-family: 'Berkshire Swash';
+    text-shadow: 2px 2px black;
+    color: white;
+    text-align: center;
+    background-color: purple;
+    width: 80%;
+    margin: auto;
 }
