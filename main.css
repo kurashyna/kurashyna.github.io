@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 body{
+    background-image: url(img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     font-family: Lato;
     padding: 0px;
     margin: 0px;
