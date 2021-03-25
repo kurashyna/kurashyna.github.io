@@ -80,8 +80,9 @@ article a{
     color: white;
     text-shadow: none;
     padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: purple;
-    border-radius: 10px;
     transition: 0.5s;
 }
 
